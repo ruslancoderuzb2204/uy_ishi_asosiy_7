@@ -1,0 +1,120 @@
+.hero {
+    background-image: url(../../img/Bitmap\ \(2\).jpg);
+    background-repeat: no-repeat;
+    margin-bottom: 87px;
+
+
+
+}
+
+.hero__title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    max-width: 493px;
+    color: #FEFCF7;
+    margin-bottom: 32px;
+}
+
+.hero__content {
+    padding: 117px 0 117px 85px;
+}
+
+.hero__text {
+    
+    max-width: 405px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    margin-bottom: 56px;
+}
+
+.hero__btn {
+    padding: 16px 32px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FEFCF7;
+    background-color: #0E8784;
+    border-radius: 6px;
+}
+
+@media screen and (max-width:1200px) {
+    .hero {
+        background-image: url(../../img/Bitmap\ \(3\).jpg);
+        background-size: cover;
+        background-position-x: right;
+    }
+}
+
+@media screen and (max-width:730px) {
+    .hero {
+        background-image: url(../../img/Bitmap\ \(3\).jpg);
+        background-size: cover;
+        background-position-x: right;
+    }
+
+    .hero__text {
+        font-size: 48px;
+        line-height: 48px;
+        max-width: 400px;
+    }
+
+    .hero__text {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .hero__content {
+        padding-bottom: 94px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .hero {
+        background-image: url(../../img/Bitmap\ \(4\).jpg);
+        background-size: cover;
+        background-position-x: right;
+    }
+
+    .hero__content {
+        text-align: center;
+        margin: 0 auto;
+        padding: 100px 24px;
+    }
+
+    .hero__title {
+        text-align: center;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 40px;
+        color: #FEFCF7;
+        max-width: 280px;
+        margin: 0 auto;
+        margin-bottom: 32px;
+    }
+
+    .hero__text {
+        max-width: 280px;
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        margin: 0 auto;
+        text-align: center;
+        color: #FEFCF7;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+        margin-bottom: 54px;
+    }
+}
