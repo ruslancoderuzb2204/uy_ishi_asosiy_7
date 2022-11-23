@@ -1,0 +1,15 @@
+@mixin line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 2px;
+    background-color: #FDD6BA;
+    max-width: 760px;
+    
+    span {
+        width: 31px;
+        height: 31px;
+        border: 2px solid #0E8784;
+        border-radius: 50%;
+    }
+}
