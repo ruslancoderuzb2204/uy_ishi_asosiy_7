@@ -15,22 +15,28 @@
         background-color: #fff;
     }
 }
-.works__block{
+
+.works__block {
     max-width: 1045px;
     margin: 0 auto;
 }
+
 .works__title {
     margin-bottom: 80px;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
 }
 
 .works__list {
-    margin-bottom: 200px;
+    margin-bottom: 64px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    
+
 }
-.works__item{
+
+.works__item {
     gap: 10px;
 }
 
@@ -60,14 +66,114 @@
     color: #333D4B;
     max-width: 285px;
 }
+
+.works__btn {
+    padding: 16px 32px;
+    background: #66D2CF;
+    border-radius: 6px;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FEFCF7;
+    margin-bottom: 120px;
+}
+
 @media screen and (max-width:930px) {
     .works__text {
-        max-width: 200px;
+        max-width: 220px;
         font-family: 'Barlow';
         font-weight: 400;
         font-size: 15px;
         line-height: 25px;
         color: #333D4B;
-      
-    } 
+
+    }
+
+    .works__line {
+        max-width: 500px;
+    }
+
+    .works__list {
+        margin-bottom: 44px;
+
+    }
+}
+
+@media screen and (max-width:730px) {
+    .works__text {
+        max-width: 180px;
+        font-family: 'Barlow';
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        color: #333D4B;
+
+    }
+}
+
+@media screen and (max-width:600px) {
+    .works__text {
+        max-width: 317px;
+        font-family: 'Barlow';
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        color: #333D4B;
+        margin-bottom: 56px;
+
+    }
+
+    .works__line {
+        max-width: 500px;
+    }
+
+    .works__list {
+        margin-bottom: 44px;
+        flex-direction: column;
+        text-align: center;
+        margin: 0 auto;
+
+    }
+
+    .works__item {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .works__sub-title {
+        font-weight: 900;
+        font-size: 28px;
+        line-height: 32px;
+        color: #333D4B;
+        max-width: 327px;
+        margin: 0;
+        margin-bottom: 24px;
+    }
+
+    .works_number {
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 72px;
+        color: #FDD6BA;
+        margin-bottom: 24px;
+    }
+
+    .works__btn {
+        padding: 16px 32px;
+        background:#0E8784;
+        border-radius: 6px;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 25px;
+        color: #FEFCF7;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 144px;
+    }
+
+    .works__block {
+        text-align: center;
+        margin: 0 auto;
+    }
 }
